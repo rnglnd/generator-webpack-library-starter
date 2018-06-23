@@ -34,14 +34,6 @@ module.exports = class extends Generator {
     );
   }
 
-  install() {
-    this.installDependencies({
-      bower: true,
-      npm: true,
-      yarn: true
-    });
-  }
-
   end() {
     this.log(chalk.green(
       'We are done!'
