@@ -1,11 +1,12 @@
 {
-  "name": "javascript-library-starter",
+  "name": "your-library-name",
   "version": "1.0.0",
   "description": "",
   "repository": "github:username/repo name",
-  "main": "lib/index.js",
   "author": "You <your email>",
+  "keywords": [],
   "license": "MIT",
+  "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "unpkg": "dist/starter.min.js",
@@ -26,7 +27,6 @@
     "testRegex": "(/__tests__/.*|(\\.|/))\\.js?$",
     "moduleFileExtensions": ["js", "json"]
   },
-  "keywords": [],
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",

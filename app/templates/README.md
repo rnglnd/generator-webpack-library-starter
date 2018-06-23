@@ -1,6 +1,6 @@
-# javascript-library-starter
+# your-library-name
 
-A starter for creating JavaScript libraries. Fork this repo and get working away on your library!
+A description..
 
 ## Usage
 
