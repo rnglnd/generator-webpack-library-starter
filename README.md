@@ -4,15 +4,15 @@
 
 This is a yoeman generator for a JavaScript library starter kit. To get started run these commands:
 
-- Install: `npm install -g generator-webpack-library-starter`
-- Run: `yo generator`
+```
+$ npm i -g yo
 
+$ npm i -g generator-webpack-library-starter
 
-## Commands
+$ mkdir my-new-project && cd my-new-project
 
-* `yo generator` shows a wizard for generating a new generator
-* `yo generator:subgenerator <name>` generates a folder with the name `<name>`
-
+$ yo webpack-library-starter
+```
 
 ## What do you get?
 
