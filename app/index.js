@@ -5,18 +5,9 @@ const chalk = require('chalk');
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
-    this.log(chalk.green(
-      'Welcome to the a generaor to create a JavaScript library!'
+    return this.log(chalk.green(
+      'Welcome the generaor to create your next JavaScript library!'
     ));
-
-    return this.prompt([{
-      type    : 'input',
-      name    : 'name',
-      message : 'What is your project name',
-      default : this.appname // Default to current folder name
-    }]).then((answers) => {
-      this.log('The project name is: ', answers.name);
-    });
   }
 
   writing() {
